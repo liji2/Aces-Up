@@ -1,0 +1,264 @@
+/* Add additional stylesheets below
+-------------------------------------------------- */
+body {
+    background-color: #00AA55;
+    color:white;
+    font-family: "Arial";
+}
+
+
+#outerBox {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+#cardColumns {
+    width: 39%;
+    vertical-align: top;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#actionColumn {
+    width: 25%;
+    vertical-align: top;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#infoColumn {
+    width: 35%;
+    vertical-align: top;
+
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#cardTable {
+    margin: auto;
+}
+
+.deck{
+    width: 187px;
+    height: 270px;
+    font-weight: bold;
+    border: 4px solid black;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.cardsLeft{
+    margin: auto;
+    width: 179px;
+    height: 25px;
+    border: 4px solid black;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #008342;
+
+}
+
+.discard{
+    width: 187px;
+    height: 270px;
+    font-weight: bold;
+    border: 4px solid black;
+    text-align: center;
+
+    margin: auto;
+
+    box-sizing: border-box;
+
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: center;
+    background-color: #008342;
+}
+
+.rules{
+    width: 100%;
+    height:300px;
+    font-weight: bold;
+    border: 4px solid black;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    background-color: #008342;
+}
+
+.rules ul {
+    text-align: left;
+}
+
+.rules p {
+     font-size: 0.85em;
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+
+.log{
+    width: 100%;
+    height:300px;
+    font-weight: bold;
+    border: 4px solid black;
+    background-color:#F0F0F0;
+    text-align: center;
+    overflow-y: auto;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    background-color: #008342;
+}
+
+.log p {
+    font-size: 0.85em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.error{
+    font-weight: normal;
+    font-size: 20px;
+    background-size: contain;
+}
+
+.play{
+    display: block;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: none;
+    cursor: pointer;
+    text-align:center;
+    outline: none;
+    background: url("https://web.engr.oregonstate.edu/~liji2/deckcard.png") no-repeat;
+    background-position: center;
+    background-size: 130px;
+    transition: all 0.2s;
+    background-color: #008342;
+}
+
+.block:hover{
+    background-color: #3e8e41;
+}
+
+.block:active {
+    transform: translate(0.1px);
+}
+
+.notbold {
+    font-weight: normal;
+    font-size: 20px;
+    background-size: contain;
+}
+
+.score {
+    margin: auto;
+    width: 181px;
+    height: 25px;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #008342;
+}
+
+.showScore{
+    font-weight: normal;
+    font-size: 20px;
+    background-size: contain;
+}
+
+.reset {
+    width: 100%;
+    height: 25px;
+    padding-bottom: 40px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #00AA55;
+
+}
+
+.restart {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #008342;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.restart:hover {
+    background-color: #3e8e41;
+
+}
+
+.restart:active {
+    transform: translate(1px);
+}
+
+
+.restartSpanish {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #008342;
+    border: 4px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.restartSpanish:hover {
+    background-color: #3e8e41;
+
+}
+
+.restartSpanish:active {
+    transform: translate(1px);
+}
+
+.img {
+    margin:left;
+    display:inline-block;
+    width:5%;
+    height:auto;
+    font-size: 5px;
+    border-radius: 20px;
+    margin-top: 5px;
+    border: 4px solid black;
+    background-color: #008342;
+    line-height: 100px;
+}
+
+.title {
+    background-color: #008342;
+}
+
